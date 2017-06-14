@@ -1,0 +1,23 @@
+{
+  "name": "mkbkenhxf6cp-to-locale-string",
+  "version": "0.0.0",
+  "description": "A sample module for testing publishing on npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkbkenhxf6cp/to-locale-string.git"
+  },
+  "keywords": [
+    "random",
+    "util"
+  ],
+  "author": "mkbkenhxf6cp <rl4sxh4ze0wu@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkbkenhxf6cp/to-locale-string/issues"
+  },
+  "homepage": "https://github.com/mkbkenhxf6cp/to-locale-string#readme"
+}
