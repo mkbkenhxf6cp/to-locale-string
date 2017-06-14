@@ -4,7 +4,8 @@
   "description": "A sample module for testing publishing on npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/mkbkenhxf6cp/to-locale-string/issues"
   },
-  "homepage": "https://github.com/mkbkenhxf6cp/to-locale-string#readme"
+  "homepage": "https://github.com/mkbkenhxf6cp/to-locale-string#readme",
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5"
+  }
 }
